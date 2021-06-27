@@ -1,3 +1,7 @@
 module.exports = {
-    publicPath: '/alvanhan/'
+    publicPath: '/alvanhan/',
+
+    transpileDependencies: [
+      'vuetify'
+    ]
 }
